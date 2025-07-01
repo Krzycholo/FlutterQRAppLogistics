@@ -1,0 +1,211 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  mobile_scanner: ^6.0.0
+  collection: ^1.18.0
+  material_color_utilities: ^0.11.1
+  string_scanner: ^1.2.0
+  test_api: ^0.7.2
+  logging: ^1.0.2
+  http: ^1.2.0
+  flutter_spinkit: ^5.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.4.0
+  flutter_launcher_icons: ^ 0.14.0
+
+flutter_native_splash:
+  color: "#ffffff"  # Kolor tła ekranu powitalnego
+  image: assets/images/logoele.png  # Ścieżka do Twojego obrazu
+  android: true
+  ios: true
+  android_gravity: center  # Ustawienie położenia obrazu na Androidzie
+  ios_content_mode: center  # Ustawienie położenia obrazu na iOS
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: assets/icons/Elektrozelico.png
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/logoele.png
+    - assets/icons/Elektrozelico.png
+
+  fonts:
+    - family: SF
+      fonts:
+        - asset: assets/fonts/SFCompactDisplay-Black.otf
+          weight: 900
+        - asset: assets/fonts/SFCompactDisplay-Bold.otf
+          weight: 700
+        - asset: assets/fonts/SFCompactDisplay-Heavy.otf
+          weight: 800
+        - asset: assets/fonts/SFCompactDisplay-Light.otf
+          weight: 300
+        - asset: assets/fonts/SFCompactDisplay-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SFCompactDisplay-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SFCompactDisplay-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/SFCompactDisplay-Thin.otf
+          weight: 100
+        - asset: assets/fonts/SFCompactDisplay-UltraLight.otf
+          weight: 200
+
+        - asset: assets/fonts/SFCompactText-Bold.otf
+          weight: 700
+        - asset: assets/fonts/SFCompactText-BoldItalic.otf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/SFCompactText-Heavy.otf
+          weight: 800
+        - asset: assets/fonts/SFCompactText-HeavyItalic.otf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/SFCompactText-Light.otf
+          weight: 300
+        - asset: assets/fonts/SFCompactText-LightItalic.otf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/SFCompactText-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SFCompactText-MediumItalic.otf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/SFCompactText-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SFCompactText-RegularItalic.otf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/SFCompactText-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/SFCompactText-SemiBoldItalic.otf
+          weight: 600
+          style: italic
+
+        - asset: assets/fonts/SFMono-Bold.otf
+          weight: 700
+        - asset: assets/fonts/SFMono-BoldItalic.otf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/SFMono-Heavy.otf
+          weight: 800
+        - asset: assets/fonts/SFMono-HeavyItalic.otf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/SFMono-Light.otf
+          weight: 300
+        - asset: assets/fonts/SFMono-LightItalic.otf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/SFMono-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SFMono-MediumItalic.otf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/SFMono-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SFMono-RegularItalic.otf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/SFMono-Semibold.otf
+          weight: 600
+        - asset: assets/fonts/SFMono-SemiboldItalic.otf
+          weight: 600
+          style: italic
+
+        - asset: assets/fonts/SF-Pro-Display-Black.otf
+          weight: 900
+        - asset: assets/fonts/SF-Pro-Display-BlackItalic.otf
+          weight: 900
+          style: italic
+        - asset: assets/fonts/SF-Pro-Display-Bold.otf
+          weight: 700
+        - asset: assets/fonts/SF-Pro-Display-BoldItalic.otf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/SF-Pro-Display-Heavy.otf
+          weight: 800
+        - asset: assets/fonts/SF-Pro-Display-HeavyItalic.otf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/SF-Pro-Display-Light.otf
+          weight: 300
+        - asset: assets/fonts/SF-Pro-Display-LightItalic.otf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/SF-Pro-Display-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SF-Pro-Display-MediumItalic.otf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/SF-Pro-Display-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SF-Pro-Display-RegularItalic.otf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/SF-Pro-Display-Semibold.otf
+          weight: 600
+        - asset: assets/fonts/SF-Pro-Display-SemiboldItalic.otf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/SF-Pro-Display-Thin.otf
+          weight: 100
+        - asset: assets/fonts/SF-Pro-Display-ThinItalic.otf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/SF-Pro-Display-Ultralight.otf
+          weight: 200
+        - asset: assets/fonts/SF-Pro-Display-UltralightItalic.otf
+          weight: 200
+          style: italic
+
+        - asset: assets/fonts/SF-Pro-Text-Bold.otf
+          weight: 700
+        - asset: assets/fonts/SF-Pro-Text-BoldItalic.otf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/SF-Pro-Text-Heavy.otf
+          weight: 800
+        - asset: assets/fonts/SF-Pro-Text-HeavyItalic.otf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/SF-Pro-Text-Light.otf
+          weight: 300
+        - asset: assets/fonts/SF-Pro-Text-LightItalic.otf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/SF-Pro-Text-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SF-Pro-Text-MediumItalic.otf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/SF-Pro-Text-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SF-Pro-Text-RegularItalic.otf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/SF-Pro-Text-Semibold.otf
+          weight: 600
+        - asset: assets/fonts/SF-Pro-Text-SemiboldItalic.otf
+          weight: 600
+          style: italic
